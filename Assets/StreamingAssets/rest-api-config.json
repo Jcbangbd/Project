@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://43.143.107.9:9012/vtp-server",
+  "loginFrom": "web",
+  "authHeaderName": "Token",
+  "authScheme": "",
+  "timeoutSeconds": 20,
+  "maxRetries": 2
+}

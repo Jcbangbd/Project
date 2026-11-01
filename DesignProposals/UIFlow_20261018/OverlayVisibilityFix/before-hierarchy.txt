@@ -1,0 +1,24 @@
+Actual workspace
+DecisionOverlayCanvas active=True scale=(0.31, 0.31, 0.31) pos=(320.00, 240.00, 0.00) rect=(x:-1036.92, y:-777.69, width:2073.84, height:1555.38) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(2073.84, 1555.38) canvas enabled=True root=True mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=50 camera=
+Level Reorder script=AscReorder scene=SceneStage1
+Level Dispatch script=AscDipatchScript scene=SceneStage1
+Level Button script=AscCollectLearn scene=SceneStage1
+Level Button script=LoadShipLearn scene=SceneStage1
+Level Button script=AscDeliverLearn scene=SceneStage1
+Level Button script=DischargeShipLearn scene=SceneStage1
+Level DischargeShip script=DischargeShipScript scene=SceneStage1
+Level LoadShip script=LoadShipScript scene=SceneStage1
+Level Collect script=AscCollectScript scene=SceneStage1
+Level Button script=AscReOrderLearn scene=SceneStage1
+Saved overlay prefab
+AlgorithmRunOverlay active=False scale=(0.00, 0.00, 0.00) pos=(0.00, 0.00, 0.00) rect=(x:0.00, y:0.00, width:0.00, height:0.00) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(0.00, 0.00) canvas enabled=True root=True mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=31000 camera= alpha=1 ignore=True
+Actual production parent and Begin
+AlgorithmRunOverlay(Clone) active=True scale=(0.00, 0.00, 0.00) pos=(0.00, 0.00, 0.00) rect=(x:0.00, y:0.00, width:0.00, height:0.00) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(0.00, 0.00) canvas enabled=True root=False mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=50 camera= alpha=1 ignore=True
+DecisionOverlayCanvas active=True scale=(0.31, 0.31, 0.31) pos=(320.00, 240.00, 0.00) rect=(x:-1036.92, y:-777.69, width:2073.84, height:1555.38) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(2073.84, 1555.38) canvas enabled=True root=True mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=50 camera=
+StatusPanel active=True scale=(1.00, 1.00, 1.00) pos=(0.00, 0.00, 0.00) rect=(x:-460.00, y:-240.00, width:920.00, height:480.00) anchor=(0.50, 0.50)/(0.50, 0.50) sizeDelta=(920.00, 480.00)
+AlgorithmRunOverlay(Clone) active=True scale=(0.00, 0.00, 0.00) pos=(0.00, 0.00, 0.00) rect=(x:0.00, y:0.00, width:0.00, height:0.00) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(0.00, 0.00) canvas enabled=True root=False mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=50 camera= alpha=1 ignore=True
+DecisionOverlayCanvas active=True scale=(0.31, 0.31, 0.31) pos=(320.00, 240.00, 0.00) rect=(x:-1036.92, y:-777.69, width:2073.84, height:1555.38) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(2073.84, 1555.38) canvas enabled=True root=True mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=50 camera=
+Detached preview parent and Begin
+AlgorithmRunOverlay(Clone) active=True scale=(0.38, 0.38, 0.38) pos=(320.00, 240.00, 0.00) rect=(x:-831.38, y:-623.54, width:1662.77, height:1247.08) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(1662.77, 1247.08) canvas enabled=True root=True mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=31000 camera= alpha=1 ignore=True
+StatusPanel active=True scale=(1.00, 1.00, 1.00) pos=(320.00, 240.00, 0.00) rect=(x:-460.00, y:-240.00, width:920.00, height:480.00) anchor=(0.50, 0.50)/(0.50, 0.50) sizeDelta=(920.00, 480.00)
+AlgorithmRunOverlay(Clone) active=True scale=(0.38, 0.38, 0.38) pos=(320.00, 240.00, 0.00) rect=(x:-831.38, y:-623.54, width:1662.77, height:1247.08) anchor=(0.00, 0.00)/(0.00, 0.00) sizeDelta=(1662.77, 1247.08) canvas enabled=True root=True mode=ScreenSpaceOverlay effective=ScreenSpaceOverlay order=31000 camera= alpha=1 ignore=True

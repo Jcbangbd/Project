@@ -1,0 +1,17 @@
+{
+  "host": "127.0.0.1",
+  "port": 8000,
+  "serverFolder": "LocalAlgorithmServer",
+  "pythonEnvironmentFolder": "LocalAlgorithmPythonEnvironment",
+  "bundledPythonRelativePath": "runtime/python.exe",
+  "bootstrapPythonExecutable": "",
+  "autoCreatePythonEnvironment": true,
+  "autoInstallDependencies": true,
+  "reinstallWhenRequirementsChange": true,
+  "environmentSetupTimeoutSeconds": 300,
+  "startupTimeoutSeconds": 20,
+  "requestTimeoutSeconds": 30,
+  "stopServerOnQuit": true,
+  "requireAlgorithmSignature": false,
+  "algorithmPublicKeyRelativePath": "config/algorithm_public_key.pem"
+}

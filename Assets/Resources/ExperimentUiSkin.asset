@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fc827c8d8546a092f251790739a201, type: 3}
+  m_Name: ExperimentUiSkin
+  m_EditorClassIdentifier:
+  surface: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  knob: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  checkmark: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  dropdownArrow: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  fontSource: {fileID: 12800000, guid: ce540bed8f12e814783912f63a245126, type: 3}
+  assessmentBackground: {fileID: 21300000, guid: b7f4e69c19f443e88467cba0de9f21c8, type: 3}
+  assessmentPanel: {fileID: 21300000, guid: a2762494319e4fd5b15bae99fa35fa56, type: 3}
+  assessmentBorder: {fileID: 21300000, guid: 96e92d5dce1849e9abf288754b1df9df, type: 3}
+  assessmentGlow: {fileID: 21300000, guid: 83ca40d686e84b9fbbad26b22f478738, type: 3}
+  assessmentDropdown: {fileID: 21300000, guid: 09c45efc68884043a4ca99d73103590b, type: 3}
+  assessmentSquare: {fileID: 21300000, guid: 0462c795d4c44e78a12cd38d410c9e3f, type: 3}
+  assessmentSquareBorder: {fileID: 21300000, guid: 96832688cedd49b0aea8a26502c845e9, type: 3}

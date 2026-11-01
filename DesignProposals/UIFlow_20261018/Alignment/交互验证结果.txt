@@ -1,0 +1,67 @@
+PASS: Build-safe Shift UI, icon and font references available
+PASS: Iteration character renders without missing glyph
+PASS: Discharge diagram reuses all nine original icon regions
+PASS: Unloading introduction text fits without truncating the last line
+PASS: Reference introduction switches flow: 0
+PASS: Reference tab selected state: 0
+PASS: Original diagrams remain available for other operation types: 0
+PASS: Reference introduction switches flow: 1
+PASS: Reference tab selected state: 1
+PASS: Original diagrams remain available for other operation types: 1
+PASS: Reference introduction switches flow: 2
+PASS: Reference tab selected state: 2
+PASS: Original diagrams remain available for other operation types: 2
+PASS: Reference introduction switches flow: 3
+PASS: Reference tab selected state: 3
+PASS: Original diagrams remain available for other operation types: 3
+PASS: Reference introduction switches flow: 4
+PASS: Reference tab selected state: 4
+PASS: Original diagrams remain available for other operation types: 4
+PASS: Redesigned zoom button opens the authoritative original diagram
+PASS: Closing diagram zoom restores the introduction
+PASS: Modal retains three stage nodes and connecting track
+PASS: Modal distinguishes completed, running, and waiting stages
+PASS: Frosted modal backdrop shader supported
+PASS: Modal ignores hidden parent canvas group
+PASS: Modal backdrop blocks pointer input outside the panel
+PASS: Real validation status advances the stage track
+PASS: Late execution messages do not reverse completed stages
+PASS: Modal closes when calculation finishes
+PASS: Modal time and spinner continue while simulation paused
+PASS: Finishing modal releases its pointer blocker
+PASS: Task-type selector is present
+PASS: Task-type options open directly below the selected control
+PASS: Incomplete task types block continuation
+PASS: Five operation rows have independent selectors
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: All five operation-type controls record answers
+PASS: Selecting a type reveals the shared learning flow below the table
+PASS: Completed task types navigate to next question
+PASS: Previous navigation preserves operation-type answers
+PASS: No algorithm preselection
+PASS: Confirm disabled until algorithm and reason selected
+PASS: ga: clicking opens reasons
+PASS: ga: reason returns to algorithm page
+PASS: ga: all defined parameter inputs present
+PASS: ga: invalid input blocks confirmation
+PASS: ga: confirmation returns only selected algorithm
+PASS: pso: clicking opens reasons
+PASS: pso: reason returns to algorithm page
+PASS: pso: all defined parameter inputs present
+PASS: pso: long parameter form is scrollable
+PASS: pso: invalid input blocks confirmation
+PASS: pso: confirmation returns only selected algorithm
+PASS: alns: clicking opens reasons
+PASS: alns: reason returns to algorithm page
+PASS: alns: all defined parameter inputs present
+PASS: alns: long parameter form is scrollable
+PASS: alns: invalid input blocks confirmation
+PASS: alns: confirmation returns only selected algorithm
+PASS: Exactly one confirmation per chosen algorithm
+PASS: Result form retains four inputs
+PASS: Result form retains completeness checkbox
+Screenshots rendered by native Unity uGUI/TMP; no network calls, executable launch or grade submission.

@@ -1,0 +1,38 @@
+PASS: Build-safe Shift UI, icon and font references available
+PASS: Iteration character renders without missing glyph
+PASS: Task-type selector is present
+PASS: Task-type options open directly below the selected control
+PASS: Incomplete task types block continuation
+PASS: Five operation rows have independent selectors
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: All five operation-type controls record answers
+PASS: Selecting a type reveals the shared learning flow below the table
+PASS: Completed task types navigate to next question
+PASS: Previous navigation preserves operation-type answers
+PASS: No algorithm preselection
+PASS: Confirm disabled until algorithm and reason selected
+PASS: ga: clicking opens reasons
+PASS: ga: reason returns to algorithm page
+PASS: ga: all defined parameter inputs present
+PASS: ga: invalid input blocks confirmation
+PASS: ga: confirmation returns only selected algorithm
+PASS: pso: clicking opens reasons
+PASS: pso: reason returns to algorithm page
+PASS: pso: all defined parameter inputs present
+PASS: pso: long parameter form is scrollable
+PASS: pso: invalid input blocks confirmation
+PASS: pso: confirmation returns only selected algorithm
+PASS: alns: clicking opens reasons
+PASS: alns: reason returns to algorithm page
+PASS: alns: all defined parameter inputs present
+PASS: alns: long parameter form is scrollable
+PASS: alns: invalid input blocks confirmation
+PASS: alns: confirmation returns only selected algorithm
+PASS: Exactly one confirmation per chosen algorithm
+PASS: Result form retains four inputs
+PASS: Result form retains completeness checkbox
+Screenshots rendered by native Unity uGUI/TMP; no network calls, executable launch or grade submission.

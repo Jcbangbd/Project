@@ -1,0 +1,25 @@
+PASS: Saved edit-mode scene: exactly one native login view
+PASS: Saved edit-mode scene: account fields already reference saved new inputs
+PASS: Saved edit-mode scene: saved button references are correct
+PASS: Saved edit-mode scene: persistent left-hand field labels exist
+PASS: Saved edit-mode scene: labels retain a saved Chinese font asset
+PASS: Saved edit-mode scene: label glyphs are already baked without runtime font mutation: Assets/Resources/Fonts/ExperienceHelp SDF.asset
+PASS: Saved edit-mode scene: labels are left of their fields
+PASS: Saved edit-mode scene: old login page was removed, not just hidden at runtime
+PASS: Saved edit-mode scene: selected Blue Harbor background is serialized in the scene
+PASS: Saved edit-mode scene: new login page is visible before authentication
+PASS: Actual play mode: exactly one native login view
+PASS: Actual play mode: account fields already reference saved new inputs
+PASS: Actual play mode: saved button references are correct
+PASS: Actual play mode: persistent left-hand field labels exist
+PASS: Actual play mode: labels retain a saved Chinese font asset
+PASS: Actual play mode: label glyphs are already baked without runtime font mutation: Assets/Resources/Fonts/ExperienceHelp SDF.asset
+PASS: Actual play mode: labels are left of their fields
+PASS: Actual play mode: old login page was removed, not just hidden at runtime
+PASS: Actual play mode: selected Blue Harbor background is serialized in the scene
+PASS: Actual play mode: new login page is visible before authentication
+PASS: Tab-order focus advances from username to password
+PASS: Change-password button retains original function
+PASS: Back button restores the saved new login form
+PASS: Login validation is still connected, without sending credentials
+PASS: Opening and using the scene creates no second login page

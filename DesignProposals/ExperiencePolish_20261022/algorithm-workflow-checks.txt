@@ -1,0 +1,40 @@
+PASS: Actual SceneStage1 workspace found
+PASS: Bundled local cases readable: 
+PASS: Same 43 discharge cases as the reported workflow
+PASS: Original preview transition initialized port scene and devices
+PASS: Idle 3D port is not covered
+PASS: Legacy-parent zero-transform repair: standalone full-screen canvas is visible
+PASS: Legacy-parent zero-transform repair: no inherited parent scale or sorting
+PASS: Legacy-parent zero-transform repair: canvas spans actual Game view
+PASS: Legacy-parent zero-transform repair: panel covers screen center
+PASS: Legacy-parent zero-transform repair: backdrop blocks scene clicks (AlgorithmRunOverlay(Clone):31000)
+PASS: Actual toolbar flow opens selected algorithm reasons
+PASS: Confirming actual parameters enters production run method
+PASS: Before EXE preparation: standalone full-screen canvas is visible
+PASS: Before EXE preparation: no inherited parent scale or sorting
+PASS: Before EXE preparation: canvas spans actual Game view
+PASS: Before EXE preparation: panel covers screen center
+PASS: Parameter panel closes before the running overlay
+PASS: First rendered production frames: standalone full-screen canvas is visible
+PASS: First rendered production frames: no inherited parent scale or sorting
+PASS: First rendered production frames: canvas spans actual Game view
+PASS: First rendered production frames: panel covers screen center
+PASS: First rendered production frames: backdrop blocks scene clicks (AlgorithmRunOverlay(Clone):31000)
+PASS: Real EXE startup advances the visible stage
+PASS: Real local GA EXE was launched through the production coordinator
+PASS: Real algorithm completes within the bounded verification window
+PASS: Success closes running overlay
+PASS: Successful schedule opens result review: 算法完成，本次执行 43 条卸船任务，正在启动VR作业。
+PASS: Actual schedule contains all 43 operations
+PASS: Every real operation respects the original fixed yard-block quay binding
+PASS: Bundled discharge case uses only the original three yard blocks
+PASS: Fourth quay crane receives no jobs when there is no A40 target
+PASS: Visibility monitored while the external process was running
+PASS: Failure retry attempt starts visible: standalone full-screen canvas is visible
+PASS: Failure retry attempt starts visible: no inherited parent scale or sorting
+PASS: Failure retry attempt starts visible: canvas spans actual Game view
+PASS: Failure retry attempt starts visible: panel covers screen center
+PASS: Parameter failure also closes overlay
+PASS: Failure restores retry UI
+PASS: Independent overlay is destroyed with its owning workspace
+SCOPE: isolated local cases and one GA execution; no authentication, server calls, grade submission or animation start.

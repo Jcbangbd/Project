@@ -1,0 +1,3 @@
+AlgorithmRunOverlay(Clone) active=True scale=(0.38, 0.38, 0.38) pos=(320.00, 240.00, 0.00) rect=(x:-831.38, y:-623.54, width:1662.77, height:1247.08) root=True mode=ScreenSpaceOverlay order=31000
+StatusPanel active=True scale=(1.00, 1.00, 1.00) pos=(320.00, 240.00, 0.00) rect=(x:-460.00, y:-240.00, width:920.00, height:480.00)
+AlgorithmRunOverlay(Clone) active=True scale=(0.38, 0.38, 0.38) pos=(320.00, 240.00, 0.00) rect=(x:-831.38, y:-623.54, width:1662.77, height:1247.08) root=True mode=ScreenSpaceOverlay order=31000

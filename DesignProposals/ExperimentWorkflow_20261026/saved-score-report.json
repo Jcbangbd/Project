@@ -1,0 +1,746 @@
+{
+    "schemaVersion": "assessment-report/v1",
+    "submissionId": "857faaadc2e94bc18051567e44fcd5e2",
+    "assessmentProfileId": "rmg-scheduling-student-actions",
+    "experimentId": "rmg-scheduling",
+    "assessmentProfileVersion": 1,
+    "studentNumber": "LOCAL_WORKFLOW_QA",
+    "taskId": "WORKFLOW_QA_20261026_c5d0a015",
+    "taskTitle": "隔离流程验证",
+    "taskVersion": 1,
+    "startedAt": "2026-10-26T07:42:51.8054413Z",
+    "submittedAt": "2026-10-26T07:42:57.3321443Z",
+    "totalScore": 48,
+    "maximumScore": 100,
+    "referenceAlgorithm": "genetic-algorithm-v2",
+    "selectedAlgorithm": "genetic-algorithm-v2",
+    "selectedReasonId": "GA_COMBINATORIAL_SEARCH",
+    "algorithmParametersJson": "{\r\n  \"POPULATION_SIZE\": 10,\r\n  \"MAX_GENERATIONS\": 3,\r\n  \"ELITE_COUNT\": 1,\r\n  \"TOURNAMENT_SIZE\": 2,\r\n  \"CROSSOVER_RATE\": 0.9,\r\n  \"ORDER_MUTATION_RATE\": 0.2,\r\n  \"OWNER_MUTATION_RATE\": 0.04,\r\n  \"TARGET_BLOCK_MUTATION_RATE\": 0.08,\r\n  \"STAGNATION_LIMIT\": 3,\r\n  \"GA_RANDOM_SEED\": 42,\r\n  \"PRINT_EVERY\": 1\r\n}",
+    "scheduleFingerprint": "1cea3e3818c4504df89578ee7e518e0876474f0b6c68eddd6afb3ee158e00aa5",
+    "quayAssignmentMethod": "fixed-yard-block/v2",
+    "quayAssignments": [
+        {
+            "jobId": "14",
+            "sequence": 1,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 0,
+            "sourceTier": 86,
+            "targetCode": "A37002021"
+        },
+        {
+            "jobId": "27",
+            "sequence": 2,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 0,
+            "sourceTier": 86,
+            "targetCode": "A36002021"
+        },
+        {
+            "jobId": "31",
+            "sequence": 3,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 0,
+            "sourceTier": 86,
+            "targetCode": "A35022023"
+        },
+        {
+            "jobId": "43",
+            "sequence": 4,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 1,
+            "sourceTier": 86,
+            "targetCode": "A37002011"
+        },
+        {
+            "jobId": "2",
+            "sequence": 5,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 1,
+            "sourceTier": 86,
+            "targetCode": "A36002041"
+        },
+        {
+            "jobId": "9",
+            "sequence": 6,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 1,
+            "sourceTier": 86,
+            "targetCode": "A35026055"
+        },
+        {
+            "jobId": "23",
+            "sequence": 7,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 2,
+            "sourceTier": 86,
+            "targetCode": "A36010023"
+        },
+        {
+            "jobId": "10",
+            "sequence": 8,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 2,
+            "sourceTier": 86,
+            "targetCode": "A37002051"
+        },
+        {
+            "jobId": "3",
+            "sequence": 9,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 2,
+            "sourceTier": 86,
+            "targetCode": "A35002031"
+        },
+        {
+            "jobId": "4",
+            "sequence": 10,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 3,
+            "sourceTier": 86,
+            "targetCode": "A37002041"
+        },
+        {
+            "jobId": "26",
+            "sequence": 11,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 3,
+            "sourceTier": 86,
+            "targetCode": "A35022013"
+        },
+        {
+            "jobId": "16",
+            "sequence": 12,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 4,
+            "sourceTier": 86,
+            "targetCode": "A37014023"
+        },
+        {
+            "jobId": "41",
+            "sequence": 13,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 4,
+            "sourceTier": 86,
+            "targetCode": "A35026015"
+        },
+        {
+            "jobId": "6",
+            "sequence": 14,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 5,
+            "sourceTier": 86,
+            "targetCode": "A37002031"
+        },
+        {
+            "jobId": "37",
+            "sequence": 15,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 6,
+            "sourceTier": 86,
+            "targetCode": "A37002022"
+        },
+        {
+            "jobId": "24",
+            "sequence": 16,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 5,
+            "sourceTier": 86,
+            "targetCode": "A35002032"
+        },
+        {
+            "jobId": "40",
+            "sequence": 17,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 6,
+            "sourceTier": 86,
+            "targetCode": "A35022014"
+        },
+        {
+            "jobId": "38",
+            "sequence": 18,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 3,
+            "sourceTier": 86,
+            "targetCode": "A36014045"
+        },
+        {
+            "jobId": "11",
+            "sequence": 19,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 7,
+            "sourceTier": 86,
+            "targetCode": "A37002052"
+        },
+        {
+            "jobId": "36",
+            "sequence": 20,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 8,
+            "sourceTier": 86,
+            "targetCode": "A37014024"
+        },
+        {
+            "jobId": "13",
+            "sequence": 21,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 7,
+            "sourceTier": 86,
+            "targetCode": "A35022032"
+        },
+        {
+            "jobId": "21",
+            "sequence": 22,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 9,
+            "sourceTier": 86,
+            "targetCode": "A37002053"
+        },
+        {
+            "jobId": "15",
+            "sequence": 23,
+            "quayCraneId": 1012,
+            "yardCraneId": "A37-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 34,
+            "sourceColumn": 10,
+            "sourceTier": 86,
+            "targetCode": "A37002032"
+        },
+        {
+            "jobId": "28",
+            "sequence": 24,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 4,
+            "sourceTier": 86,
+            "targetCode": "A36010024"
+        },
+        {
+            "jobId": "35",
+            "sequence": 25,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 5,
+            "sourceTier": 86,
+            "targetCode": "A36010013"
+        },
+        {
+            "jobId": "33",
+            "sequence": 26,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 8,
+            "sourceTier": 86,
+            "targetCode": "A35022042"
+        },
+        {
+            "jobId": "1",
+            "sequence": 27,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 6,
+            "sourceTier": 86,
+            "targetCode": "A36002011"
+        },
+        {
+            "jobId": "17",
+            "sequence": 28,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 7,
+            "sourceTier": 86,
+            "targetCode": "A36002012"
+        },
+        {
+            "jobId": "19",
+            "sequence": 29,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 9,
+            "sourceTier": 86,
+            "targetCode": "A35022052"
+        },
+        {
+            "jobId": "22",
+            "sequence": 30,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 10,
+            "sourceTier": 86,
+            "targetCode": "A35002011"
+        },
+        {
+            "jobId": "42",
+            "sequence": 31,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 11,
+            "sourceTier": 86,
+            "targetCode": "A35002061"
+        },
+        {
+            "jobId": "8",
+            "sequence": 32,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 12,
+            "sourceTier": 86,
+            "targetCode": "A35022024"
+        },
+        {
+            "jobId": "30",
+            "sequence": 33,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 0,
+            "sourceTier": 84,
+            "targetCode": "A35002062"
+        },
+        {
+            "jobId": "25",
+            "sequence": 34,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 1,
+            "sourceTier": 84,
+            "targetCode": "A35002033"
+        },
+        {
+            "jobId": "39",
+            "sequence": 35,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 8,
+            "sourceTier": 86,
+            "targetCode": "A36002042"
+        },
+        {
+            "jobId": "5",
+            "sequence": 36,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 2,
+            "sourceTier": 84,
+            "targetCode": "A35002021"
+        },
+        {
+            "jobId": "20",
+            "sequence": 37,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 9,
+            "sourceTier": 86,
+            "targetCode": "A36002051"
+        },
+        {
+            "jobId": "7",
+            "sequence": 38,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 10,
+            "sourceTier": 86,
+            "targetCode": "A36002031"
+        },
+        {
+            "jobId": "12",
+            "sequence": 39,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 11,
+            "sourceTier": 86,
+            "targetCode": "A36002032"
+        },
+        {
+            "jobId": "29",
+            "sequence": 40,
+            "quayCraneId": 1011,
+            "yardCraneId": "A36-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 18,
+            "sourceColumn": 12,
+            "sourceTier": 86,
+            "targetCode": "A36002022"
+        },
+        {
+            "jobId": "34",
+            "sequence": 41,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 3,
+            "sourceTier": 84,
+            "targetCode": "A35002063"
+        },
+        {
+            "jobId": "32",
+            "sequence": 42,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 4,
+            "sourceTier": 84,
+            "targetCode": "A35002034"
+        },
+        {
+            "jobId": "18",
+            "sequence": 43,
+            "quayCraneId": 1010,
+            "yardCraneId": "A35-RMG1",
+            "sourceVessel": "Vessel004",
+            "sourceBay": 2,
+            "sourceColumn": 5,
+            "sourceTier": 84,
+            "targetCode": "A35002041"
+        }
+    ],
+    "preExperimentAnswers": [
+        {
+            "itemId": "5",
+            "title": "算例作业类型勾选",
+            "selectedOptionIds": [],
+            "numericValues": [],
+            "caseTaskTypeAnswers": [
+                {
+                    "rowIndex": 0,
+                    "exampleId": "ZIP-LOCAL-197",
+                    "exampleNo": "197",
+                    "selectedOptionId": "UNLOAD_TRUCK"
+                },
+                {
+                    "rowIndex": 1,
+                    "exampleId": "ZIP-LOCAL-8",
+                    "exampleNo": "8",
+                    "selectedOptionId": "REHANDLE"
+                },
+                {
+                    "rowIndex": 2,
+                    "exampleId": "ZIP-LOCAL-191",
+                    "exampleNo": "191",
+                    "selectedOptionId": "DISCHARGE"
+                },
+                {
+                    "rowIndex": 3,
+                    "exampleId": "ZIP-LOCAL-12",
+                    "exampleNo": "12",
+                    "selectedOptionId": "LOAD_SHIP"
+                },
+                {
+                    "rowIndex": 4,
+                    "exampleId": "ZIP-LOCAL-51",
+                    "exampleNo": "51",
+                    "selectedOptionId": "LOAD_TRUCK"
+                }
+            ]
+        },
+        {
+            "itemId": "6",
+            "title": "优化目标选择",
+            "selectedOptionIds": [
+                "MIN_CMAX"
+            ],
+            "numericValues": [],
+            "caseTaskTypeAnswers": []
+        },
+        {
+            "itemId": "7",
+            "title": "最小安全距离设置",
+            "selectedOptionIds": [],
+            "numericValues": [
+                {
+                    "key": "MIN_CRANE_DISTANCE",
+                    "value": "1",
+                    "unit": "贝位"
+                }
+            ],
+            "caseTaskTypeAnswers": []
+        },
+        {
+            "itemId": "8",
+            "title": "水平移动速度设置",
+            "selectedOptionIds": [],
+            "numericValues": [
+                {
+                    "key": "GANTRY_SPEED",
+                    "value": "1",
+                    "unit": "m/s"
+                },
+                {
+                    "key": "TROLLEY_SPEED",
+                    "value": "1",
+                    "unit": "m/s"
+                }
+            ],
+            "caseTaskTypeAnswers": []
+        },
+        {
+            "itemId": "9",
+            "title": "起升速度设置",
+            "selectedOptionIds": [],
+            "numericValues": [
+                {
+                    "key": "HOIST_SPEED",
+                    "value": "1",
+                    "unit": "m/s"
+                }
+            ],
+            "caseTaskTypeAnswers": []
+        },
+        {
+            "itemId": "10",
+            "title": "任务分配规则选择",
+            "selectedOptionIds": [
+                "SEA_FIXED_SHARED"
+            ],
+            "numericValues": [],
+            "caseTaskTypeAnswers": []
+        },
+        {
+            "itemId": "11",
+            "title": "必要约束勾选",
+            "selectedOptionIds": [
+                "COLLISION_AVOIDANCE"
+            ],
+            "numericValues": [],
+            "caseTaskTypeAnswers": []
+        },
+        {
+            "itemId": "12",
+            "title": "初始解规则选择",
+            "selectedOptionIds": [
+                "FIRST_COME_FIRST_SERVE"
+            ],
+            "numericValues": [],
+            "caseTaskTypeAnswers": []
+        }
+    ],
+    "items": [
+        {
+            "itemId": "1",
+            "title": "登录系统",
+            "maxScore": 0,
+            "score": 0,
+            "passed": true,
+            "detail": "学生已登录并建立服务器会话。"
+        },
+        {
+            "itemId": "2",
+            "title": "获取实验任务",
+            "maxScore": 0,
+            "score": 0,
+            "passed": true,
+            "detail": "已选择本地测试任务；该记录不应作为正式成绩。"
+        },
+        {
+            "itemId": "3",
+            "title": "查看实验介绍",
+            "maxScore": 0,
+            "score": 0,
+            "passed": true,
+            "detail": "已查看实验场景定义和问题描述。"
+        },
+        {
+            "itemId": "4",
+            "title": "查看算例",
+            "maxScore": 0,
+            "score": 0,
+            "passed": true,
+            "detail": "已查看集装箱任务数量：200。"
+        },
+        {
+            "itemId": "5",
+            "title": "算例作业类型勾选",
+            "maxScore": 5,
+            "score": 5,
+            "passed": true,
+            "detail": "全部算例的作业类型均选择正确，本题得5分。"
+        },
+        {
+            "itemId": "6",
+            "title": "优化目标选择",
+            "maxScore": 5,
+            "score": 5,
+            "passed": true,
+            "detail": "选择结果与评分细则完全一致。"
+        },
+        {
+            "itemId": "7",
+            "title": "最小安全距离设置",
+            "maxScore": 8,
+            "score": 0,
+            "passed": false,
+            "detail": "最小安全距离不是2、3或4中的整数。"
+        },
+        {
+            "itemId": "8",
+            "title": "水平移动速度设置",
+            "maxScore": 8,
+            "score": 0,
+            "passed": false,
+            "detail": "大车或小车速度缺失或超出规定范围。"
+        },
+        {
+            "itemId": "9",
+            "title": "起升速度设置",
+            "maxScore": 6,
+            "score": 0,
+            "passed": false,
+            "detail": "起升速度缺失或超出规定范围。"
+        },
+        {
+            "itemId": "10",
+            "title": "任务分配规则选择",
+            "maxScore": 10,
+            "score": 0,
+            "passed": false,
+            "detail": "存在错选、漏选、多选或未提交。"
+        },
+        {
+            "itemId": "11",
+            "title": "勾选必要约束",
+            "maxScore": 15,
+            "score": 0,
+            "passed": false,
+            "detail": "存在错选、漏选、多选或未提交。"
+        },
+        {
+            "itemId": "12",
+            "title": "初始解规则选择",
+            "maxScore": 5,
+            "score": 0,
+            "passed": false,
+            "detail": "存在错选、漏选、多选或未提交。"
+        },
+        {
+            "itemId": "13",
+            "title": "阅读算法介绍面板",
+            "maxScore": 0,
+            "score": 0,
+            "passed": true,
+            "detail": "已打开GA、PSO和ALNS算法介绍及参数范围。"
+        },
+        {
+            "itemId": "14",
+            "title": "求解算法选择",
+            "maxScore": 10,
+            "score": 10,
+            "passed": true,
+            "detail": "已按教师任务配置核对算法与选择原因，所选算法生成了可行结果。"
+        },
+        {
+            "itemId": "15",
+            "title": "填写算法参数值",
+            "maxScore": 18,
+            "score": 18,
+            "passed": true,
+            "detail": "全部必填参数通过范围和参数关系校验，算法成功启动。"
+        },
+        {
+            "itemId": "16",
+            "title": "调度结果核对与提交",
+            "maxScore": 10,
+            "score": 10,
+            "passed": true,
+            "detail": "提交值：Cmax=1876.2，RMG1=43，RMG2=0，共享区=0。系统校验：任务无遗漏、无重复，设备时间段无重叠，两台RMG全时段保持不少于2贝位的安全距离。算法原始任务分配和顺序未发生变化。"
+        }
+    ]
+}

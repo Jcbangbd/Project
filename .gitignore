@@ -1,0 +1,42 @@
+# Unity-generated data (recreated by the editor)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE-generated solution and project files
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+
+# Local verification copies, reports in progress, and restore snapshots
+/.codex-tmp/
+/.codex_doc_review/
+/_codex_backups/
+/Backups/
+/CodexBackups/
+
+# Generated algorithm exchange/results/temp and map download cache
+/RmgAlgorithmRuntime/
+/RWT_Cache/
+
+# OS and crash files
+.DS_Store
+Thumbs.db
+sysinfo.txt
+*.stackdump
+
+# Assets/, Packages/, ProjectSettings/ and their .meta files remain included.

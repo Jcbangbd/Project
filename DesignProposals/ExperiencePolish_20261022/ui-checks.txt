@@ -1,0 +1,240 @@
+PASS: Build-safe Shift UI, icon and font references available
+PASS: Iteration character renders without missing glyph
+PASS: Login field labels are serialized native components
+PASS: Discharge diagram reuses all nine original icon regions
+PASS: Unloading introduction text fits without truncating the last line
+PASS: Reference introduction switches flow: 0
+PASS: Reference tab selected state: 0
+PASS: Original diagrams remain available for other operation types: 0
+PASS: Reference introduction switches flow: 1
+PASS: Reference tab selected state: 1
+PASS: Original diagrams remain available for other operation types: 1
+PASS: Reference introduction switches flow: 2
+PASS: Reference tab selected state: 2
+PASS: Original diagrams remain available for other operation types: 2
+PASS: Reference introduction switches flow: 3
+PASS: Reference tab selected state: 3
+PASS: Original diagrams remain available for other operation types: 3
+PASS: Reference introduction switches flow: 4
+PASS: Reference tab selected state: 4
+PASS: Original diagrams remain available for other operation types: 4
+PASS: Redesigned zoom button opens the authoritative original diagram
+PASS: Closing diagram zoom restores the introduction
+PASS: Running overlay establishes a valid standalone production canvas before capture
+PASS: Modal retains three stage nodes and connecting track
+PASS: Modal distinguishes completed, running, and waiting stages
+PASS: Frosted modal backdrop shader supported
+PASS: Modal ignores hidden parent canvas group
+PASS: Modal backdrop blocks pointer input outside the panel
+PASS: Real validation status advances the stage track
+PASS: Late execution messages do not reverse completed stages
+PASS: Modal closes when calculation finishes
+PASS: Modal time and spinner continue while simulation paused
+PASS: Finishing modal releases its pointer blocker
+PASS: Task-type selector is present
+PASS: Task-type options open directly below the selected control
+PASS: Incomplete task types block continuation
+PASS: Five operation rows have independent selectors
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: Each selector exposes the full task-type option menu
+PASS: All five operation-type controls record answers
+PASS: Selecting a type reveals the shared learning flow below the table
+PASS: Completed task types navigate to next question
+PASS: Previous navigation preserves operation-type answers
+PASS: Question 2 answer text Text matches question-one body size
+PASS: Question 2 answer text Text matches question-one body size
+PASS: Question 2 answer text Text matches question-one body size
+PASS: Question 2 answer text Text matches question-one body size
+PASS: Question 3 answer text Label matches question-one body size
+PASS: Question 3 answer text Text matches question-one body size
+PASS: Question 3 answer text Placeholder matches question-one body size
+PASS: Question 3 answer text Unit matches question-one body size
+PASS: Question 4 answer text Label matches question-one body size
+PASS: Question 4 answer text Text matches question-one body size
+PASS: Question 4 answer text Placeholder matches question-one body size
+PASS: Question 4 answer text Unit matches question-one body size
+PASS: Question 4 answer text Label matches question-one body size
+PASS: Question 4 answer text Text matches question-one body size
+PASS: Question 4 answer text Placeholder matches question-one body size
+PASS: Question 4 answer text Unit matches question-one body size
+PASS: Question 5 answer text Label matches question-one body size
+PASS: Question 5 answer text Text matches question-one body size
+PASS: Question 5 answer text Placeholder matches question-one body size
+PASS: Question 5 answer text Unit matches question-one body size
+PASS: Question 6 answer text Text matches question-one body size
+PASS: Question 6 answer text Text matches question-one body size
+PASS: Question 6 answer text Text matches question-one body size
+PASS: Question 6 answer text Text matches question-one body size
+PASS: Question 7 answer text Text matches question-one body size
+PASS: Question 7 answer text Text matches question-one body size
+PASS: Question 7 answer text Text matches question-one body size
+PASS: Question 7 answer text Text matches question-one body size
+PASS: Question 8 answer text Text matches question-one body size
+PASS: Question 8 answer text Text matches question-one body size
+PASS: Question 8 answer text Text matches question-one body size
+PASS: No algorithm preselection
+PASS: Confirm disabled until algorithm and reason selected
+PASS: ga: clicking opens reasons
+PASS: ga: reason returns to algorithm page
+PASS: ga: all defined parameter inputs present
+PASS: ga: invalid input blocks confirmation
+PASS: ga: confirmation returns only selected algorithm
+PASS: pso: clicking opens reasons
+PASS: pso: reason returns to algorithm page
+PASS: pso: all defined parameter inputs present
+PASS: pso: long parameter form is scrollable
+PASS: pso: invalid input blocks confirmation
+PASS: pso: confirmation returns only selected algorithm
+PASS: alns: clicking opens reasons
+PASS: alns: reason returns to algorithm page
+PASS: alns: all defined parameter inputs present
+PASS: alns: long parameter form is scrollable
+PASS: alns: invalid input blocks confirmation
+PASS: alns: confirmation returns only selected algorithm
+PASS: Exactly one confirmation per chosen algorithm
+PASS: Task experience hides internal fallback diagnostics
+PASS: Task card presents no testing labels or internal status codes
+PASS: Case experience has neither fallback red text nor source popup
+PASS: Hiding diagnostics does not change local-source assessment protection
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Visible case text contains no testing diagnostics
+PASS: Position help has a saved circular icon and initially hidden panel
+PASS: Pointer enter explains the full 35/4 position meaning
+PASS: Position help retains a saved Chinese font asset
+PASS: Position-help font already covers character 位
+PASS: Position-help font already covers character 置
+PASS: Position-help font already covers character 格
+PASS: Position-help font already covers character 式
+PASS: Position-help font already covers character 为
+PASS: Position-help font already covers character 贝
+PASS: Position-help font already covers character /
+PASS: Position-help font already covers character 列
+PASS: Position-help font already covers character 号
+PASS: Position-help font already covers character 例
+PASS: Position-help font already covers character 如
+PASS: Position-help font already covers character 3
+PASS: Position-help font already covers character 5
+PASS: Position-help font already covers character 4
+PASS: Position-help font already covers character ：
+PASS: Position-help font already covers character 堆
+PASS: Position-help font already covers character 场
+PASS: Position-help font already covers character 第
+PASS: Position-help font already covers character 、
+PASS: Position-help font already covers character ，
+PASS: Position-help font already covers character 不
+PASS: Position-help font already covers character 包
+PASS: Position-help font already covers character 含
+PASS: Position-help font already covers character 箱
+PASS: Position-help font already covers character 层
+PASS: Position-help font already covers character 信
+PASS: Position-help font already covers character 息
+PASS: Position-help font already covers character 。
+PASS: Position-help font already covers character 0
+PASS: Position-help font already covers character 海
+PASS: Position-help font already covers character 侧
+PASS: Position-help font already covers character 支
+PASS: Position-help font already covers character 架
+PASS: Position-help font already covers character ；
+PASS: Position-help font already covers character 1
+PASS: Position-help font already covers character 至
+PASS: Position-help font already covers character 陆
+PASS: Position-help font already covers character 车
+PASS: Position-help font already covers character 道
+PASS: Position-help font already covers character 起
+PASS: Position-help font already covers character 始
+PASS: Position-help font already covers character 表
+PASS: Position-help font already covers character 示
+PASS: Position-help font already covers character 取
+PASS: Position-help font already covers character 目
+PASS: Position-help font already covers character 标
+PASS: Position-help font already covers character 放
+PASS: Position-help font already covers character 这
+PASS: Position-help font already covers character 里
+PASS: Position-help font already covers character 的
+PASS: Position-help font already covers character 编
+PASS: Position-help font already covers character 与
+PASS: Position-help font already covers character 三
+PASS: Position-help font already covers character 维
+PASS: Position-help font already covers character 区
+PASS: Position-help font already covers character 分
+PASS: Position-help font already covers character 别
+PASS: Position-help font already covers character 管
+PASS: Position-help font already covers character 理
+PASS: Pointer exit closes position help
+PASS: Result form retains four inputs
+PASS: Result form retains completeness checkbox
+Screenshots rendered by native Unity uGUI/TMP; no network calls, executable launch or grade submission.

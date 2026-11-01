@@ -1,0 +1,31 @@
+{
+  "instance_api": {
+    "enabled": true,
+    "url": "http://127.0.0.1:8000/generate-instance",
+    "method": "POST",
+    "timeout_seconds": 5,
+    "request_body": {
+      "NUM_TASKS": 200,
+      "YARD_BLOCK_TASK_COUNTS": {
+        "A35": 100,
+        "A36": 50,
+        "A37": 50
+      },
+      "TYPE_RATIO": {
+        "卸船": 0.2,
+        "装船": 0.2,
+        "翻箱": 0.2,
+        "卸车": 0.2,
+        "装车": 0.2
+      },
+      "NUM_BAYS": 50,
+      "NUM_ROWS": 10,
+      "NUM_LAYERS": 5,
+      "NUM_RACKS": 5,
+      "NUM_LANES": 5,
+      "RANDOM_SEED": 42
+    }
+  },
+  "local_instance_file": "算例数据.xlsx",
+  "output_directory": "results"
+}

@@ -1,0 +1,44 @@
+PASS: Actual workspace and case viewer found
+PASS: No production account is authenticated during verification
+PASS: Selecting a task opens introduction, not questionnaire
+PASS: Introduction opens the current 43-case discharge example page
+PASS: Case action advances to parameter setup
+PASS: Questionnaire is forbidden before experiment completion
+PASS: Parameters are displayed before algorithm selection or 3D load
+PASS: Editing default GA parameters does not select GA or enter the experiment
+PASS: Case page closes before parameter page opens
+PASS: Invalid parameter blocks advancement
+PASS: Editing PSO preset still does not select the execution algorithm
+PASS: Parameter tab switches preserve independently edited configurations
+PASS: Saving parameters advances to algorithm selection
+PASS: Saving parameters starts neither an algorithm nor a 3D experiment
+PASS: Algorithm confirmation no longer sends the user back to parameter entry
+PASS: Only selected GA and its previously saved parameters enter the request
+PASS: Selected algorithm runs once after 3D initialization and returns a real schedule
+PASS: Algorithm completion alone does not unlock the questionnaire
+PASS: Algorithm success opens schedule review before device simulation
+PASS: Neither device script nor completion monitor starts before schedule review submission
+PASS: Scene remains locked while schedule review is pending
+PASS: Incomplete review cannot start three-dimensional scheduling
+PASS: Post-experiment eight-question answers are not collected early
+PASS: Submitting review closes the page and starts only the current three-dimensional schedule
+PASS: Schedule review records its score without saving or submitting an incomplete total report
+PASS: Original device script actually imports all 43 simulation tasks
+PASS: Repeated review submission does not restart or duplicate device tasks
+PASS: Fixed three-yard-block crane assignment is unchanged
+PASS: Actual simulation reaches the completion detector within bounded verification
+PASS: Completion requires all original task states finished and all queued device records consumed
+PASS: Completion waits for the last device motion, not only the final delivery task
+PASS: Saved native completion prefab opens with Start questionnaire action
+PASS: Start questionnaire closes completion dialog and opens question one
+PASS: Post-experiment question one still contains one example of each five operation types
+PASS: All eight questions retain their answers and original scoring pipeline
+PASS: Eight-question completion directly offers final submit and return
+PASS: Schedule review is not reopened after the eight questions
+PASS: Final submit returns to the original introduction instead of starting another experiment
+PASS: Answer and completion overlays are closed after returning
+PASS: Only one final report is saved, after all post-experiment answers
+PASS: Saved report retains this isolated task, all per-question answers and final score
+PASS: Five-correct first-question scoring and total maximum remain unchanged
+PASS: Final report retains the schedule-review score collected before simulation
+SCOPE: local-only QA task, one real GA run, accelerated original device clock, no authentication or official server submission; only this run's random-ID score file moved back into project evidence.

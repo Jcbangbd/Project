@@ -1,0 +1,54 @@
+SCENE Assets/Scenes/2.unity
+ACCOUNT Longin
+LOGIN Longin/LoginPanel
+ALTER Longin/AlterPanel
+STATUS Longin/StatusText
+LOADING Longin/LoadingPanel
+USERNAME Longin/LoginPanel/Image/UsernameInput
+Longin active=True size=(1920.00, 1440.00) anchors=(0.00, 0.00)/(0.00, 0.00) components=RectTransform,Canvas,CanvasScaler,GraphicRaycaster,AccountManager
+  LoginPanel active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,Image
+    Image active=True size=(100.00, 100.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image
+      UsernameInput active=True size=(330.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,TMP_InputField
+        Text Area active=True size=(-20.00, -13.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,RectMask2D
+      PasswordInput active=True size=(330.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,TMP_InputField
+        Text Area active=True size=(85.00, -13.00) anchors=(0.13, 0.00)/(0.86, 1.00) components=RectTransform,RectMask2D
+      LoginButton active=True size=(200.00, 55.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,Button
+        Text (TMP) active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+      LoginButton (1) active=True size=(200.00, 55.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,Button
+        Text (TMP) active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+      Image active=True size=(100.00, 100.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image
+      RawImage active=True size=(100.00, 100.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,RawImage
+      Text (TMP) active=True size=(200.00, 50.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+  AlterPanel active=False size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,Image
+    ZhangHao active=True size=(200.00, 50.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    UsernameInput active=True size=(380.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,TMP_InputField
+      Text Area active=True size=(-20.00, -13.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,RectMask2D
+        Placeholder active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI,LayoutElement
+        Text active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    PasswordInput active=True size=(380.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,TMP_InputField
+      Text Area active=True size=(-20.00, -13.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,RectMask2D
+        Placeholder active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI,LayoutElement
+        Text active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    MiMa active=True size=(200.00, 50.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    LoginButton active=True size=(200.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,Button
+      Text (TMP) active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    RegisterButton active=True size=(200.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,Button
+      Text (TMP) active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    MiMa (1) active=True size=(200.00, 50.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    MiMa (2) active=True size=(200.00, 50.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    NewPasswordInput active=True size=(380.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,TMP_InputField
+      Text Area active=True size=(-20.00, -13.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,RectMask2D
+        Placeholder active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI,LayoutElement
+        Text active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    AgainPasswordInput active=True size=(380.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,TMP_InputField
+      Text Area active=True size=(-20.00, -13.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,RectMask2D
+        Placeholder active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI,LayoutElement
+        Text active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+  Text (TMP) active=True size=(600.00, 50.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+  StatusText active=False size=(600.00, 40.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+  LoadingPanel active=False size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,Image
+    LoadingText active=True size=(200.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,TextMeshProUGUI
+    Again active=True size=(200.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) components=RectTransform,CanvasRenderer,Image,Button
+      Text (Legacy) active=True size=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) components=RectTransform,CanvasRenderer,Text
+SCENE Assets/Scenes/SceneEntrance.unity
+SCENE Assets/Scenes/SceneStage1.unity
